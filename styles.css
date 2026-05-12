@@ -37,9 +37,8 @@ body {
 h1 {
     display: flex;
     color: var(--white);
-    margin: auto;
-    font-size: 30rem;
-
+    font-size: 20rem;
+    max-width: 90vw;
     font-family: pressato-variable, sans-serif;
     font-style: normal;
     font-variation-settings: "slnt" 0, "wdth" 20, "wght" 100;
@@ -50,25 +49,26 @@ h1 span {
     width: auto;
 }
 
+.space {
+    margin-right: 5rem;
+}
+
 #typeWrapper {
     width: auto;
     height: auto;
     position: relative;
+    justify-content: center;
+    align-items: center;
     display: flex;
     z-index: 2;
-    justify-content: center;
     min-height: 100vh;
 }
-/* 
-h1:hover {
-    font-variation-settings: "slnt" 200, "wdth" 250, "wght" 700;
-    transition: all 1s ease;
-    
-} */
+
+
 
 h1 span:hover {
     font-variation-settings: "slnt" 200, "wdth" 250, "wght" 700;
-    transition: all 0.75s ease;
+    transition: all 0.70s ease;
     padding-left: 5px;
     padding-right: 5px;
     cursor: grab;
