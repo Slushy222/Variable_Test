@@ -66,7 +66,7 @@ h1 span {
 
 
 
-h1 span:hover {
+.word span:hover {
     font-variation-settings: "slnt" 200, "wdth" 250, "wght" 700;
     transition: all 0.70s ease;
     padding-left: 5px;
