@@ -110,7 +110,7 @@ h1 .word:last-child span:first-child {
 
 .lastLetter::after, .firstLetter::before{
     position: absolute;
-    width: 2.5rem;
+    width: 3rem;
     height: 100%;
     position: absolute;
     content: " ";
