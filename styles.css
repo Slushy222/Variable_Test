@@ -62,6 +62,7 @@ h1 .word:last-child span:first-child {
 .word span {
     transition: all 4.5s ease-out;
     width: auto;
+    user-select: none;
 }
 
 .space {
@@ -85,7 +86,7 @@ h1 .word:last-child span:first-child {
 }
 
 
-.word span:hover, .word span:active {
+.word span:hover, .hover {
     font-variation-settings: "slnt" 200, "wdth" 250, "wght" 700;
     transition: all 0.70s ease;
     padding-left: 0.25rem;
