@@ -70,7 +70,7 @@ h1 {
 }
 
 
-.word span:hover, .word span:active {
+.word span:hover, .hover {
     font-variation-settings: "slnt" 200, "wdth" 250, "wght" 700;
     transition: all 0.75s ease;
     padding-left: 0.25rem;
