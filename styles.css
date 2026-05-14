@@ -43,22 +43,6 @@ h1 {
     font-variation-settings: "slnt" 0, "wdth" 20, "wght" 100;
 }
 
-/* h1 .word:first-child span:last-child {
-    color: red;
-}
-
-h1 .word:nth-child(2) span:first-child, h1 .word:nth-child(2) span:last-child {
-    color: red;
-}
-
-h1 .word:nth-child(3) span:first-child {
-    color: red;
-}
-
-h1 .word:last-child span:first-child {
-    color: red;
-} */
-
 .word span {
     transition: all 4.5s ease-out;
     width: auto;
@@ -86,20 +70,13 @@ h1 .word:last-child span:first-child {
 }
 
 
-.word span:hover, .hover {
+.word span:hover, .word span:active {
     font-variation-settings: "slnt" 200, "wdth" 250, "wght" 700;
-    transition: all 0.70s ease;
+    transition: all 0.75s ease;
     padding-left: 0.25rem;
     padding-right: 0.25rem;
     cursor: grab;
 }
-
-/* h1 span::selection {
-    font-variation-settings: "slnt" 200, "wdth" 250, "wght" 700;
-    transition: all 0.75s ease;
-    cursor: auto;
-} */
-
 
 .firstLetter, .lastLetter {
     /* color: red; */
