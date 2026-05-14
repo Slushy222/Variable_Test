@@ -1,0 +1,61 @@
+p {
+    position: relative;
+    bottom: 30%;
+    color: var(--white);
+    font-family: 'Avenir-Medium', Helvetica, sans-serif;
+    letter-spacing: 12%;
+    font-size: 1.25em;
+    display: flex;
+    flex-direction: row;
+    height: 1.5em;
+    width: auto;
+}
+
+p span:first-child {
+    margin-right: 0.5em;
+}
+
+#typeList {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    overflow-clip-margin:50px;
+}
+
+#typeList:hover {
+    cursor: s-resize;
+}
+
+.typeEntry {
+    /* margin-bottom: 0.75em; */
+    /* color: var(--grey); */
+    transition: color 0.5s ease-out;
+}
+
+.focusedType {
+    color: var(--white);
+}
+
+
+/* TYPE BELOW */
+.pressato {
+    font-family: pressato-variable, sans-serif;
+    font-variation-settings: "slnt" 0, "wdth" 20, "wght" 100;
+}
+
+.pressato .word span:hover {
+    font-variation-settings: "slnt" 200, "wdth" 250, "wght" 700;
+}
+
+
+.firelli {
+    font-family: "firelli-variable", sans-serif;
+    font-variation-settings: "wght" 100;
+    font-size: 8em;
+    letter-spacing: 10%;
+}
+
+.firelli .word span:hover {
+    font-variation-settings: "wght" 900;
+}

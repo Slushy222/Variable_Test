@@ -30,6 +30,7 @@ body {
     font-size: 10px;
     --black:rgb(27, 28, 28);
     --white: rgb(255, 255, 255);
+    --grey: rgb(100, 100, 100);
 }
 
 h1 {
@@ -38,9 +39,9 @@ h1 {
     color: var(--white);
     font-size: 25rem;
     max-width: 90vw;
-    font-family: pressato-variable, sans-serif;
+    text-transform: uppercase;
     font-style: normal;
-    font-variation-settings: "slnt" 0, "wdth" 20, "wght" 100;
+    margin-bottom: 6rem;
 }
 
 .word span {
@@ -65,13 +66,13 @@ h1 {
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-direction: column;
     z-index: 2;
     min-height: 100vh;
 }
 
 
 .word span:hover, .hover {
-    font-variation-settings: "slnt" 200, "wdth" 250, "wght" 700;
     transition: all 0.75s ease;
     padding-left: 0.25rem;
     padding-right: 0.25rem;
