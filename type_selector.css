@@ -20,17 +20,27 @@ p span:first-child {
     flex-direction: column;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
-    overflow-clip-margin:50px;
 }
 
 #typeList:hover {
     cursor: s-resize;
 }
 
+#typeList span:first-child {
+    margin-top: 0em;
+}
+
+#typeList span:last-child {
+    margin-bottom: 0em;
+}
+
 .typeEntry {
     /* margin-bottom: 0.75em; */
     /* color: var(--grey); */
     transition: color 0.5s ease-out;
+    height: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .focusedType {
