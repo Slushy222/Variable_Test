@@ -13,7 +13,7 @@
     </head>
     <body>
         <div id="typeWrapper">
-            <h1 class="pressato">
+            <h1 class="primaryWord pressato">
                 <span class="phraseContainer">
                     <span class="word space stackingSpace">
                         <span>t</span><span>h</span><span>i</span><span class="lastLetter">s</span>
@@ -34,8 +34,21 @@
                     </span>
                 </span>
             </h1>
-            <p>
-                <span>Typeface:</span>
+            <div class="scrollContainer">
+                <p id="startingLine">Typeface:</p>
+                <ul class="scroller">
+                    <li class="typeEntry">Pressato</li>
+                    <li class="typeEntry">Cheee</li>
+                    <li class="typeEntry">Firelli</li>
+                    <li class="typeEntry">Loretta</li>
+                    <li class="typeEntry">Meursault</li>
+                    <li class="typeEntry">Early Sans</li>
+                    <li class="typeEntry">Scatterplot</li>
+                </ul>
+            </div>
+
+            <!-- <p>
+                <span id="startingLine">Typeface:</span>
                 <span id="typeList">
                     <span class="typeEntry focusedType">Pressato</span>
                     <span class="typeEntry">Cheee</span>
@@ -45,8 +58,9 @@
                     <span class="typeEntry">Early Sans</span>
                     <span class="typeEntry">Scatterplot</span>
                 </span>
-            </p>
+            </p> -->
         </div>
         <script src="hover.js"></script>
+        <script src="typeChange.js"></script>
     </body>
 </html>
