@@ -42,10 +42,15 @@ h1 {
     text-transform: uppercase;
     font-style: normal;
     margin-bottom: 6rem;
+    white-space: nowrap;
+    align-items: center;
+    height: 300px;
 }
 
 .word span {
-    transition: all 4.5s ease-out;
+    transition: font-variation-settings 4.5s ease-out, padding 4.5s ease;
+    display: inline-flex;
+    text-wrap: none;
     width: auto;
     user-select: none;
 }
@@ -73,7 +78,7 @@ h1 {
 
 
 .word span:hover, .hover {
-    transition: all 0.75s ease;
+    transition: font-variation-settings 0.75s ease, padding 0.75s ease;
     padding-left: 0.25rem;
     padding-right: 0.25rem;
     cursor: grab;
@@ -101,7 +106,7 @@ h1 {
 }
 
 @media screen and (max-width: 80em) {
-    h1 {
+    .pressato {
         font-size: 15rem;
     }
     .space {
@@ -110,7 +115,7 @@ h1 {
 }
 
 @media screen and (max-width: 48em) {
-    h1 {
+    .pressato {
         font-size: 12rem;
         align-items: center;
         flex-direction: column;
