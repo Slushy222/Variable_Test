@@ -54,7 +54,7 @@ function typeChange() {
 	} else if (seventhType.classList.contains("selected")) {
 		heading1.classList.replace("earlysans", "scatterplot")
 	} else {
-		console.log("no type selected")
+		observer.observe(typeEntry)
 	}
 }
 
