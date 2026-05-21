@@ -57,3 +57,7 @@ function typeChange() {
 		console.log("no type selected")
 	}
 }
+
+// InputEvent("scroll", (event) => {
+// 	console.log("scroll!")
+// })
